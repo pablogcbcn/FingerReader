@@ -1,0 +1,32 @@
+T25A0 004:333 SEGGER J-Link V4.80g Log File (0002ms, 2246ms total)
+T25A0 004:333 DLL Compiled: Feb 13 2014 20:50:02 (0002ms, 2246ms total)
+T25A0 004:333 Logging started @ 2017-11-23 16:46 (0002ms, 2246ms total)
+T25A0 004:335 JLINK_SetWarnOutHandler(...) (0000ms, 2246ms total)
+T25A0 004:335 JLINK_OpenEx(...)
+Firmware: J-Link Lite-Cortex-M V8 compiled Sep 15 2016 12:05:01
+Hardware: V8.00
+S/N: 518108892
+Feature(s): GDBDevice "CORTEX-M0" selected (0 KB flash, 0 KB RAM).  returns O.K. (0269ms, 2515ms total)
+T25A0 004:604 JLINK_SetErrorOutHandler(...) (0000ms, 2515ms total)
+T25A0 004:605 JLINK_ExecCommand("ProjectFile = "C:\MinGW\msys\1.0\home\Pablo\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_hrs\pca10028\s130\arm4\JLinkSettings.ini"", ...)Device "CORTEX-M0" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0001ms, 2516ms total)
+T25A0 004:606 JLINK_ExecCommand("Device = nRF51xxx", ...)Device "CORTEX-M0" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetDLLVersion()  returns 48007 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetFirmwareString(...) (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetDLLVersion()  returns 48007 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetCompileDateTime() (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetFirmwareString(...) (0000ms, 2516ms total)
+T25A0 004:606 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 2516ms total)
+T25A0 004:606 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 2517ms total)
+T25A0 004:607 JLINK_SetSpeed(10000) (0000ms, 2517ms total)
+T25A0 004:608 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 2517ms total)
+T25A0 004:608 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M0 r0p0, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 4 code (BP) slots and 0 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000)
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) (0041ms, 2558ms total)
+T25A0 004:649 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x0BB11477 (0000ms, 2558ms total)
+T25A0 004:652 JLINK_GetFirmwareString(...) (0000ms, 2558ms total)
+T25A0 004:821 JLINK_Close() -- CPU_WriteMem(4 bytes @ 0xE0001004) (0003ms, 2561ms total)
+T25A0 004:821  (0003ms, 2561ms total)
+T25A0 004:821 Closed (0003ms, 2561ms total)
